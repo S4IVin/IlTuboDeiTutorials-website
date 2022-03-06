@@ -4,31 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+    <link rel="stylesheet" href="custom.css">
+    <title>IlTuboDeiTutorials Website</title>
 </head>
 <body>
     <header>
-        <ul>
-            <a href="index.html">Home</a>
-            <a href="#articles">Articles</a>
-            <a href="about.html">About</a>
-            <a href="contact.html">Contact</a>
-        </ul>
+        <nav>
+            <ul>
+                <a href="index.html">Home</a>
+                <a href="#articles">Articles</a>
+                <a href="contact.html">Contact</a>
+            </ul>
+        </nav>
+        <h1>Tell me the issue.</h1>
+        <p>Do you have any advice, or any issue to report? Get in touch with me by using the form below.</p>
     </header>
-    <h1>Contact Me</h1>
-    <p>Do you have any advice, or any issue to report? Get in touch with me by using the form below.</p>
     <form>
-        <label for="email">
-        <input type="text" id="email" name="email" placeholder="Email address"><br>
-        </label>
-        <label for="message">
-        <input type="text" id="message" name="message" placeholder="Your message"><br>
-        </label>
-        <br>
+        <p>
+            <label for="name">Name</label>
+            <br>
+            <input type="text" id="name" name="name" required>
+        </p>
+        <p>
+            <label for="email">Email</label>
+            <br>
+            <input type="text" id="email" name="email" required>
+        </p>
+        <p>
+            <label for="message">Message</label>
+            <br>
+            <textarea rows="6" id="message" name="message" required></textarea>
+        </p>
         <input type="submit" value="Submit">
     </form>
     <footer>
-        <p>Made by Salvatore Giaquinto <a href="https://www.youtube.com/channel/UCqgxQZH5GWV0TkMR6NTDPCQ"><img src="images/yt_icon_mono_dark.png"></a></p>
+        <p>Made by <a href="https://www.youtube.com/channel/UCqgxQZH5GWV0TkMR6NTDPCQ">IlTuboDeiTutorials</a> and licensed under the MIT license. </p>
     </footer>
 </body>
 </html>
